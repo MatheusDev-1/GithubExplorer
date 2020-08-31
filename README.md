@@ -17,8 +17,8 @@ false
 
 | Rota | Descrição |
 | ------ | ---- | 
-|        |      | 
-|        |      | 
+|    /    |   Dashboard, página principal com listagem dos repositórios a partir de inserção manual   | 
+|    /repositories/:repository+    | Repositorio, página com mais detalhes e issues daquele repositório em específico     | 
 
 ## Dependências de Produção | Production dependencies
 
