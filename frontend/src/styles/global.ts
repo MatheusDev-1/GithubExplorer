@@ -1,6 +1,15 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, keyframes } from 'styled-components';
 
 import githubBackground from '../assets/githubbackground.svg';
+
+const move = keyframes`
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2);
+  }
+`;
 
 export default createGlobalStyle`
   * {
@@ -12,7 +21,12 @@ export default createGlobalStyle`
 
   body {
     background: #F0F0F5 url(${githubBackground}) no-repeat 70% top;
+
     -webkit-font-smoothing: antialiased;
+  }
+
+  svg {
+    animation: ${move} 2s infinite alternate;
   }
 
   body, input, button {
