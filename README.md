@@ -1,6 +1,6 @@
 # GITHUBEXPLORER
 
-![projeto1](screenshot.png)
+![projeto1](screenshot.jpg)
 
 > Aplicação desenvolvida durante o bootcamp GoStack da Rockeatseat para mostrar elegantemente os repositórios
 false
